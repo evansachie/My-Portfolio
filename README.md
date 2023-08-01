@@ -3,7 +3,7 @@
 
 ![Screenshot 2023-08-01 074909](https://github.com/AWESOME04/My-Portfolio/assets/102630199/68b08b4d-496c-4583-8e50-22c6a3503681)
 
-## Link to my Resume ![HERE](https://drive.google.com/file/d/1UyBkk2de6Xu7a61xV8S3rDckuY30plf6/view?usp=sharing)
+## Link to my [Resume](https://drive.google.com/file/d/1UyBkk2de6Xu7a61xV8S3rDckuY30plf6/view?usp=sharing)
 
 
 Hello 👋, I'm Evans Acheampong, an aspiring Full Stack Developer.
@@ -67,7 +67,7 @@ If you have any inquiries or would like to work on a project together, please fe
 - Email: [evansachie01@gmail.com](mailto:evansachie01@gmail.com)
 - Location: Accra, Ghana
 - LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/evans-acheampong-982315232/)
-- ![Resume](https://drive.google.com/file/d/1UyBkk2de6Xu7a61xV8S3rDckuY30plf6/view?usp=sharing)
+- [Resume](https://drive.google.com/file/d/1UyBkk2de6Xu7a61xV8S3rDckuY30plf6/view?usp=sharing)
 
 ## Footer
 - LinkedIn: [Evans Acheampong](https://www.linkedin.com/in/evans-acheampong-982315232/)
