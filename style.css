@@ -363,24 +363,35 @@ section .title::after {
   color: #1da1f2;
 }
 
-/* skills section styling */
+/* Skills section styling */
 .skills .title::after {
   background: #111;
-  content: "what i know";
+  content: "Skills";
 }
 .skills .skills-content .column {
-  width: calc(50% - 30px);
+  width: 100%; /* Adjust as needed for your design */
 }
+
 .skills .skills-content .left .text {
   font-size: 20px;
-  font-weight: 800;
+  font-weight: 600;
   margin-bottom: 10px;
 }
-.skills .skills-content .left p {
-  text-align: justify;
-  line-height: 1.6;
-  letter-spacing: 1px;
+
+.skills .skills-content .left .horizontal-skills {
+  list-style: none;
+  padding: 0;
+  display: flex;
+  flex-wrap: wrap;
+  margin: 0;
 }
+
+.skills .skills-content .left .horizontal-skills li {
+  font-size: 16px;
+  margin-right: 20px;
+  margin-bottom: 6px;
+}
+
 .skills .skills-content .left a {
   display: inline-block;
   background: crimson;
@@ -390,67 +401,148 @@ section .title::after {
   padding: 8px 16px;
   margin-top: 20px;
   border-radius: 6px;
-  border: 2px solid crimson;
-  transition: all 0.3s ease;
+  text-decoration: none;
+  transition: background 0.3s ease, color 0.3s ease;
 }
+
 .skills .skills-content .left a:hover {
   color: crimson;
-  background: none;
+  background: #fff;
+  border: 2px solid crimson;
 }
+
+/* Skill bars styling */
 .skills .skills-content .right .info {
+  margin-bottom: 15px;
   display: flex;
-  flex-wrap: wrap;
   align-items: center;
   justify-content: space-between;
 }
+
+.skills .skills-content .right .info span {
+  font-weight: bold;
+}
+
 .skills .skills-content .right .info img {
   padding: 0 10px;
+  max-width: 30px; /* Adjust the width as needed */
+  height: auto;
+}
+
+.skills .skills-content .right .line {
+  background: #f0f0f0;
+  height: 10px;
+  border-radius: 6px;
+  position: relative;
+}
+
+.skills .skills-content .right .line:before {
+  content: "";
+  background: crimson;
+  height: 100%;
+  width: 90%; /* Adjust the skill level (percentage) */
+  border-radius: 6px;
+  position: absolute;
+}
+
+/* Adjust skill level percentages as needed */
+.skills .skills-content .right .line.python:before {
+  width: 90%; /* Python skill level */
+}
+
+.skills .skills-content .right .line.javascript:before {
+  width: 80%; /* JavaScript skill level */
+}
+
+.skills .skills-content .right .line.ccpp:before {
+  width: 70%; /* C/C++ skill level */
+}
+
+.skills .skills-content .right .line.mysql:before {
+  width: 80%; /* MySQL skill level */
+}
+
+.skills .skills-content .right .line.node:before {
+  width: 75%; /* Node.js skill level */
 }
 
 /* Project section styling */
-.projects .carousel {
+.projects .project-container {
   display: flex;
-  flex-wrap: wrap;
-  justify-content: center;
+  flex-wrap: nowrap;
+  overflow-x: auto; /* Allow horizontal scrolling */
   margin-top: 20px;
 }
 
-.projects .card {
+.projects .project-card {
   width: 300px;
-  margin: 20px;
+  margin-right: 20px;
   background-color: #f5f5f5;
   border-radius: 8px;
   box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
   transition: transform 0.3s ease-in-out;
+  display: flex;
+  flex-direction: column;
 }
 
-.projects .card:hover {
+.projects .project-card:last-child {
+  margin-right: 0; /* Remove right margin for the last card */
+}
+
+.projects .project-card:hover {
   transform: translateY(-5px);
 }
 
-.projects .card a {
-  display: block;
-  position: relative;
+.projects .project-image {
   overflow: hidden;
   border-radius: 8px 8px 0 0;
 }
 
-.projects .card img {
+.projects .project-image img {
   width: 100%;
   height: auto;
 }
 
-.projects .text {
+.projects .project-info {
   padding: 20px;
+}
+
+.projects .project-title {
+  font-size: 18px;
+  font-weight: 600;
+  margin-bottom: 10px;
+}
+
+.projects .project-description {
+  font-size: 14px;
+  line-height: 1.4;
+  margin-bottom: 15px;
+}
+
+.projects .project-link {
+  text-decoration: none;
+  color: #007bff;
+  font-weight: 600;
+  transition: color 0.3s ease;
+}
+
+.projects .project-link:hover {
+  color: #0056b3;
 }
 
 /* Media Queries */
 @media screen and (max-width: 768px) {
-  .projects .card {
+  .projects .project-card {
     width: 90%;
-    margin: 10px auto;
+    margin-right: 0;
+    margin-bottom: 20px;
+  }
+
+  .projects .project-container {
+    flex-wrap: wrap;
   }
 }
+
 
 
 /* contact section styling */
