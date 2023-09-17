@@ -4,7 +4,7 @@
 
 ## Link to my [Resume](https://drive.google.com/file/d/12IjtT-Op7j3bPathsC-00HsVEKMk7fPu/view?usp=sharing)
 
-## [Live Website](https://awesome04.github.io/My-Portfolio/)
+## [Live Website](https://portfolio-three-gules-10.vercel.app/)
 
 
 Hello 👋, I'm Evans Acheampong, an aspiring Full Stack Developer.
