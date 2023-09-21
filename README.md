@@ -67,12 +67,11 @@ If you have any inquiries or would like to work on a project together, please fe
 - Phone: +233 57 008 1720
 - Email: [evansachie01@gmail.com](mailto:evansachie01@gmail.com)
 - Location: Accra, Ghana
-- LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/evans-acheampong-982315232/)
-- [Resume](https://drive.google.com/file/d/12IjtT-Op7j3bPathsC-00HsVEKMk7fPu/view?usp=sharing)
+- LinkedIn: [LinkedIn Profile](https://www.linkedin.com/in/evans-acheampong/)
 
 ## Footer
-- LinkedIn: [Evans Acheampong](https://www.linkedin.com/in/evans-acheampong-982315232/)
+- LinkedIn: [Evans Acheampong](https://www.linkedin.com/in/evans-acheampong/)
 - GitHub: [AWESOME04](https://github.com/AWESOME04)
 
 ---
-Created and designed by [Evans Acheampong](https://www.linkedin.com/in/evans-acheampong-982315232/)
+Created and designed by [Evans Acheampong](https://www.linkedin.com/in/evans-acheampong/)
