@@ -2,7 +2,7 @@
 
 ![Screenshot 2023-08-01 074909](https://github.com/AWESOME04/My-Portfolio/assets/102630199/68b08b4d-496c-4583-8e50-22c6a3503681)
 
-## Link to my [Resume](https://drive.google.com/file/d/12IjtT-Op7j3bPathsC-00HsVEKMk7fPu/view?usp=sharing)
+## Link to my [Resume](https://docs.google.com/document/d/1gpORkRZyuzpHzz-rwkzvZeXAc_RI5nTvI1R1NNMsp6c/edit?usp=sharing)
 
 ## [Live Website](https://awesome04.github.io/My-Portfolio/)
 
