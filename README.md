@@ -1,6 +1,6 @@
 # Evans Acheampong - Portfolio
 
-![Screenshot 2023-08-01 074909](https://github.com/AWESOME04/My-Portfolio/assets/102630199/68b08b4d-496c-4583-8e50-22c6a3503681)
+<img width="941" alt="port" src="https://github.com/AWESOME04/My-Portfolio/assets/102630199/aa0cc0ac-b7a7-46df-a8e1-df0dc276d0ec">
 
 ## Link to my [Resume](https://docs.google.com/document/d/1gpORkRZyuzpHzz-rwkzvZeXAc_RI5nTvI1R1NNMsp6c/edit?usp=sharing)
 
@@ -10,20 +10,19 @@
 Hello 👋, I'm Evans Acheampong, an aspiring Full Stack Developer.
 
 ## About Me
-My passion lies in developing efficient and scalable software solutions. I'm currently pursuing a Bachelor of Science degree in Computer Engineering at the University of Ghana. As a Technology Lead at Techintran, I gained practical experience in developing web applications and working with various technologies. I have a strong foundation in programming languages such as Python, JavaScript, and C/C++.
+👋 Hey there, I'm Evans, a Computer Engineering student 🎓, with a solid foundation in programming, software development, and computer science theory. 💻 I am skilled in Python, C++, and enjoy creating web and mobile applications🌐📱
 
-- 🔭 I’m currently working on various web projects.
-- 🌱 I’m currently learning React and Node.js.
-- 💬 Ask me about anything related to programming or technology.
-- 📫 How to reach me: [evansachie01@gmail.com](mailto:evansachie01@gmail.com)
-- 😄 Pronouns: He/Him
+When I'm not immersed in coding, you'll likely find me gaming 🎮 or exploring the thrilling world of anime 👀. I'm also passionate about staying up-to-date with the latest tech trends. 
+
+I'm always eager to learn new technologies and am currently diving into the fascinating realms of data science and machine learning. 🤖
+
+🚀I'm always open to new opportunities and collaborations in the tech space. Feel free to reach out to me for any exciting prospects! 🌍💼🌟
 
 ## Skills
 I have experience in the following areas:
 
 - Python | JavaScript | C / C++ | MySQL | Node | Express | Git | UI/UX | Cloud Computing | Unit Testing | OOP | Unity 2D | Game Development | Blender
-- HTML | CSS | MATLAB | Arduino | Flask | Proteus Professional | MS Office | SOLIDWORKS | Flutter | Raspberry Pi | Canva | TensorFlow | PostgreSQL
-- UiPath
+- HTML | CSS | MATLAB | Arduino | Flask | Proteus Professional | MS Office | SOLIDWORKS | Flutter | Raspberry Pi | Canva | TensorFlow | PostgreSQL | UiPath
 
 ## Projects
 Here are some of the projects I have worked on:
