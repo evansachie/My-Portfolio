@@ -364,7 +364,35 @@ section .title::after {
 }
 
 
+/*Education Section Styling*/
+<style>
+  .education-wrapper {
+    display: flex;
+    justify-content: space-around;
+    flex-wrap: wrap;
+  }
 
+  .education-entry {
+    background-color: #fff;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    padding: 20px;
+    margin: 20px;
+    border-radius: 8px;
+    width: calc(50% - 40px); /* Adjust the width as needed */
+    box-sizing: border-box;
+  }
+
+  .education-entry h3 {
+    color: #333;
+    font-size: 1.5em;
+    margin-bottom: 10px;
+  }
+
+  .education-entry p {
+    color: #666;
+    margin-bottom: 5px;
+  }
+</style>
 
 /* Skills section styling */
 .skills .title::after {
