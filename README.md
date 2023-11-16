@@ -59,6 +59,13 @@ Here are some of the projects I have worked on:
 
    - This is a project that uses Python and OpenCV to perform facial detection and recognition. The project includes a script that captures video from a webcam, detects faces in each frame, and recognizes them if they are already known to the system.
 
+10. [PokeAPI](https://pokeapi-awesome04.vercel.app/)
+
+![grid](https://github.com/AWESOME04/pokeapi/assets/102630199/c66911db-a70d-4918-b469-f89cb380a382)
+
+   - Pokeapi is a React-based web application that leverages the PokeAPI. It enables users to search for Pokémon and displays information about the searched Pokémon or a list of Pokémon based on user input.
+
+
 ## Contact Me
 If you have any inquiries or would like to work on a project together, please feel free to contact me using the information below:
 
