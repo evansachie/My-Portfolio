@@ -39,7 +39,7 @@ $(document).ready(function () {
 
   // Typing animation script start
   var typed = new Typed(".typing", {
-    strings: ["Aspring Full Stack Developer", "ML & AI Enthusiast", "Computer Engineering Student"],
+    strings: ["Aspring Full Stack Developer", "ML & AI Enthusiast", "Computer Engineering Student", "UI/UX Designer"],
     typeSpeed: 100,
     backSpeed: 60,
     loop: true,
