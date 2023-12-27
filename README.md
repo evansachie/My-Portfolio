@@ -65,7 +65,48 @@ Here are some of the projects I have worked on:
 
    - Pokeapi is a React-based web application that leverages the PokeAPI. It enables users to search for Pokémon and displays information about the searched Pokémon or a list of Pokémon based on user input.
 
-[Checkout my UI/UX Design Projects](https://github.com/AWESOME04/UI-UX-Design-Projects)
+## 🌐 UI/UX Projects
+
+### Techintran Website Prototype 🚀
+![07_Gallery](https://github.com/AWESOME04/UI-UX-Design-Projects/assets/102630199/c490b110-3a17-4aea-8824-7f82afe5c188)
+
+Techintran Company Limited, based in Accra, Ghana, is a technology powerhouse. They specialize in software, applications, video production, and more. Explore the future of technology with their website prototype:
+
+🔗 [Techintran Website Prototype](https://www.figma.com/file/iaDQYy7co6uSK9bZWyisSQ/Techintran-Website-Prototype---Main?type=design&node-id=0%3A1&mode=design&t=WKCuiIdqPA5fSkEn-1)
+
+
+### Street Fund Global Foundation 🏡
+
+![Gallery](https://github.com/AWESOME04/UI-UX-Design-Projects/assets/102630199/4095b087-7c00-475e-9128-66d2f07ee76c)
+
+Street Fund Global Foundation is on a mission to create a better home environment for street children and support those in need. Their vision comes to life through this design project:
+
+🔗 [Street Fund Global Foundation](https://www.figma.com/file/5PshTrKPGeVTLqMsDfFscb/Street-Foundation?type=design&node-id=0%3A1&mode=design&t=FrvSrXVO7bsJD8qw-1)
+
+### StudentConnect 🎓
+
+![Onboarding](https://github.com/AWESOME04/UI-UX-Design-Projects/assets/102630199/e31cae43-b392-4fde-bb2e-b13bf3b8cf87)
+
+StudentConnect is the ultimate solution to streamline the student experience. From academics to social life, it's all here. Explore the design that simplifies it all:
+
+🔗 [StudentConnect](https://www.figma.com/file/8Bcyd0u3wEWXTygWfJ6Z36/StudentConnect?type=design&node-id=0%3A1&mode=design&t=RbfukFCTuum6bFxx-1)
+
+### XCelsz Website Prototype 🌐
+
+<img width="656" alt="xcelsz" src="https://github.com/AWESOME04/UI-UX-Design-Projects/assets/102630199/4539942a-dc1e-4b9c-9fcd-2fc8b76296c0">
+
+XCelsz is an Agile Technology and Consultancy Firm that dedicates 30% of its time to developing its digital products and 70% of its time to helping others do the same. Their mission is to be the Go-To digital solutions company worldwide, and their vision is to transform the way business is done.
+
+🔗 [XCelsz Website Prototype](https://www.figma.com/file/TZoyxFiikdrPVLEARMH8jA/Xcelsz-TPV?type=design&node-id=0%3A1&mode=design&t=i6LYb4mptdnol9UI-1)
+
+
+### Domino's Pizza Redesign 🍕
+
+<img width="534" alt="domino's pizza" src="https://github.com/AWESOME04/UI-UX-Design-Projects/assets/102630199/4ca9a1b4-e681-4fbb-800f-b8e5a1eefa3a">
+
+The purpose of the evaluation and redesign of Domino's Pizza website/app is to improve its user experience by addressing specific issues related to user interface, functionality, and aesthetics. The goal is to streamline navigation, enhance visual appeal, and optimize the ordering flow, ultimately creating a more user-friendly and efficient platform for customers to explore the menu, customize orders, and complete purchases with ease.
+
+🔗 [Domino's Pizza Redesign](https://www.figma.com/file/kcz6edArMFMQY0TSCdKdN6/Domino's-Pizza%3A%3A-Redesign?type=design&node-id=1102%3A2436&mode=design&t=Azf6PnYzhuMOa6dZ-1)
 
 
 ## Contact Me
