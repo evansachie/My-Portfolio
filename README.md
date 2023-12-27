@@ -65,6 +65,8 @@ Here are some of the projects I have worked on:
 
    - Pokeapi is a React-based web application that leverages the PokeAPI. It enables users to search for Pokémon and displays information about the searched Pokémon or a list of Pokémon based on user input.
 
+[Checkout my UI/UX Design Projects](https://github.com/AWESOME04/UI-UX-Design-Projects)
+
 
 ## Contact Me
 If you have any inquiries or would like to work on a project together, please feel free to contact me using the information below:
