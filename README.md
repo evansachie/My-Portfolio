@@ -22,7 +22,7 @@ I'm always eager to learn new technologies and am currently diving into the fasc
 I have experience in the following areas:
 
 - Python | JavaScript | C / C++ | MySQL | Node | Express | Git | UI/UX | Cloud Computing | Unit Testing | OOP | Unity 2D | Game Development | Blender
-- HTML | CSS | MATLAB | Arduino | Flask | Proteus Professional | MS Office | SOLIDWORKS | Flutter | Raspberry Pi | Canva | TensorFlow | PostgreSQL | UiPath
+- HTML | CSS | MATLAB | Arduino | Flask | Proteus Professional | MS Office | SOLIDWORKS | Flutter | Raspberry Pi | Canva | TensorFlow | PostgreSQL
 
 ## Projects
 Here are some of the projects I have worked on:
