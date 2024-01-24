@@ -739,7 +739,7 @@ section .title::after {
   margin: 0 auto;
   font-size: 16px;
   line-height: 1.5;
-  color: #555; /* Adjust the color as needed */
+  color: #555;
 }
 
 .ui-ux-projects .subtitle.fadein {
@@ -846,22 +846,22 @@ section .title::after {
   font-size: 18px;
   border: none;
   border-radius: 5px; 
-  text-decoration: none; /* Remove underlines */
-  transition: background-color 0.3s ease; /* Smooth hover effect */
+  text-decoration: none; 
+  transition: background-color 0.3s ease; 
 }
 
 /* Hover effect - change background color on hover */
 .view-more-projects-button.ui-ux:hover {
-  background-color: #0056b3; /* Adjust the hover background color as needed */
+  background-color: #0056b3;
 }
 
 .ui-ux-projects .call-to-action {
   text-align: center;
   max-width: 800px;
-  margin: 20px auto; /* Adjust the margin as needed */
+  margin: 20px auto; 
   font-size: 16px;
   line-height: 1.5;
-  color: #555; /* Adjust the color as needed */
+  color: #555; 
 }
 
 .ui-ux-projects .call-to-action.fadein {
@@ -882,7 +882,7 @@ section .title::after {
 
 /* Certifications section styling */
 .certifications {
-  background: #f9f9f9; /* Background color */
+  background: #f9f9f9;
   padding: 100px 0;
   font-family: "Poppins", sans-serif;
 }
@@ -897,7 +897,7 @@ section .title::after {
 }
 
 .certifications .certification-item {
-  background: #fff; /* Item background color */
+  background: #fff; 
   padding: 20px;
   margin: 20px 0;
   border-radius: 8px;
@@ -908,12 +908,12 @@ section .title::after {
   font-size: 18px;
   font-weight: 600;
   margin-bottom: 5px;
-  color: #111; /* Item title color */
+  color: #111;
 }
 
 .certifications .certification-item p {
   font-size: 14px;
-  color: #777; /* Date color */
+  color: #777; 
 }
 
 
