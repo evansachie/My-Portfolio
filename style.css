@@ -12,6 +12,7 @@
 html {
   scroll-behavior: smooth;
 }
+
 /* Navbar Styling*/
 .navbar {
   position: fixed;
@@ -591,7 +592,7 @@ section .title::after {
 }
 
 .projects .project-card:last-child {
-  margin-right: 0; /* Remove right margin for the last card */
+  margin-right: 0;
 }
 
 .projects .project-card:hover {
@@ -707,27 +708,26 @@ section .title::after {
   transform: translate3d(0, 0, 1em);
 }
 
-/* Center the button horizontally and vertically */
 .view-more-projects-button {
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin: 40px auto; /* Adjust the margin as needed */
-  padding: 10px 20px; /* Adjust the padding as needed */
-  background-color: #007bff; /* Button background color */
-  color: #fff; /* Text color */
-  font-size: 18px; /* Font size */
+  margin: 40px auto; 
+  padding: 10px 20px; 
+  background-color: #007bff;
+  color: #fff;
+  font-size: 18px;
   border: none;
-  border-radius: 5px; /* Rounded corners */
-  text-decoration: none; /* Remove underlines */
-  transition: background-color 0.3s ease; /* Smooth hover effect */
+  border-radius: 5px;
+  text-decoration: none; 
+  transition: background-color 0.3s ease; 
 }
 
 
-/* Hover effect - change background color on hover */
+/* Hover effect */
 .view-more-projects-button:hover {
-  background-color: #0056b3; /* Adjust the hover background color as needed */
+  background-color: #0056b3;
 }
 
 
@@ -760,7 +760,7 @@ section .title::after {
 .ui-ux-projects .project-container {
   display: flex;
   flex-wrap: nowrap;
-  overflow-x: auto; /* Allow horizontal scrolling */
+  overflow-x: auto; 
   margin-top: 20px;
 }
 
@@ -776,7 +776,7 @@ section .title::after {
 }
 
 .ui-ux-projects .project-card:last-child {
-  margin-right: 0; /* Remove right margin for the last card */
+  margin-right: 0;
 }
 
 .ui-ux-projects .project-card:hover {
@@ -839,13 +839,13 @@ section .title::after {
   justify-content: center;
   align-items: center;
   text-align: center;
-  margin: 40px auto; /* Adjust the margin as needed */
-  padding: 10px 20px; /* Adjust the padding as needed */
-  background-color: #007bff; /* Button background color */
-  color: #fff; /* Text color */
-  font-size: 18px; /* Font size */
+  margin: 40px auto; 
+  padding: 10px 20px; 
+  background-color: #007bff;
+  color: #fff;
+  font-size: 18px;
   border: none;
-  border-radius: 5px; /* Rounded corners */
+  border-radius: 5px; 
   text-decoration: none; /* Remove underlines */
   transition: background-color 0.3s ease; /* Smooth hover effect */
 }
