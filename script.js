@@ -1,84 +1,80 @@
 $(document).ready(function () {
-  // Scroll down sticky navbar script start
+  // Smooth scroll for navigation
+  $('a[href*="#"]').on('click', function(e) {
+    e.preventDefault();
+    $('html, body').animate({
+      scrollTop: $($(this).attr('href')).offset().top - 70
+    }, 500, 'linear');
+  });
+
+  // Navbar color change on scroll
   $(window).scroll(function () {
     if (this.scrollY > 20) {
       $(".navbar").addClass("sticky");
     } else {
       $(".navbar").removeClass("sticky");
     }
-    // Scroll down sticky navbar script end
 
-    // Scroll up Button script start
+    // Scroll up button visibility
     if (this.scrollY > 500) {
       $(".scroll-up-btn").addClass("show");
     } else {
       $(".scroll-up-btn").removeClass("show");
     }
-    // Scroll up Button script end
 
-    // Fade In & Fade Out Elements on Scroll script start
+    // Fade in elements on scroll
     $(".fadein").each(function (i) {
-      var bottom_of_element = $(this).offset().top + $(this).outerHeight();
-      var bottom_of_window = $(window).scrollTop() + $(window).height();
-
-      if (bottom_of_window > bottom_of_element) {
+      const elementTop = $(this).offset().top;
+      const viewportBottom = $(window).scrollTop() + $(window).height();
+      
+      if (viewportBottom > elementTop + 100) {
         $(this).addClass("showme");
       }
-      if (bottom_of_window < bottom_of_element) {
-        $(this).removeClass("showme");
-      }
-      // Fade In & Fade Out Elements on Scroll script end
     });
   });
 
-  // Scroll up Button script start
+  // Smooth scroll to top
   $(".scroll-up-btn").click(function () {
-    $("html").animate({ scrollTop: 0 });
+    $("html").animate({ scrollTop: 0 }, 500);
   });
-  // Scroll up Button script end
 
-  // Typing animation script start
-  var typed = new Typed(".typing", {
-    strings: ["Aspring Full Stack Developer", "ML & AI Enthusiast", "Computer Engineering Student", "UI/UX Designer"],
-    typeSpeed: 100,
-    backSpeed: 60,
+  // Typing animation
+  const typed = new Typed(".typing", {
+    strings: [
+      "Full Stack Developer",
+      "Computer Engineering Student",
+      "UI/UX Designer",
+      "ML & AI Enthusiast"
+    ],
+    typeSpeed: 80,
+    backSpeed: 40,
     loop: true,
+    smartBackspace: true,
+    backDelay: 1000,
+    startDelay: 500
   });
 
-  var typed = new Typed(".typing2", {
-    strings: ["React.js Developer", "Front End Developer", "Youtuber", "Teacher"],
-    typeSpeed: 100,
-    backSpeed: 60,
-    loop: true,
-  });
-
-  // toggle menu/navbar script start
+  // Mobile menu toggle
   $(".menu-btn").click(function () {
     $(".navbar .menu").toggleClass("active");
     $(".menu-btn i").toggleClass("active");
   });
-  // toggle menu/navbar script end
 
-  // owl carousel script start
-  $(".carousel").owlCarousel({
-    margin: 20,
-    loop: true,
-    autoplayTimeOut: 2000,
-    autoplayHoverPause: true,
-    responsive: {
-      0: {
-        items: 1,
-        nav: false,
-      },
-      600: {
-        items: 2,
-        nav: false,
-      },
-      1000: {
-        items: 3,
-        nav: false,
-      },
-    },
+  // Close mobile menu when clicking outside
+  $(document).click(function(e) {
+    if (!$(e.target).closest('.navbar').length) {
+      $(".navbar .menu").removeClass("active");
+      $(".menu-btn i").removeClass("active");
+    }
   });
-  // owl carousel script end
+
+  // Project cards hover effect
+  $(".project-card").hover(
+    function() {
+      $(this).find("img").css("transform", "scale(1.05)");
+    },
+    function() {
+      $(this).find("img").css("transform", "scale(1)");
+    }
+  );
 });
