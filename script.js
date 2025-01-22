@@ -77,4 +77,37 @@ $(document).ready(function () {
       $(this).find("img").css("transform", "scale(1)");
     }
   );
+
+  // Modal functionality
+  const modal = document.getElementById("resumeModal");
+  const btn = document.getElementById("viewResumeBtn");
+  const span = document.getElementsByClassName("close")[0];
+
+  // Open modal
+  btn.onclick = function() {
+      modal.style.display = "block";
+      document.body.style.overflow = 'hidden'; // Prevent scrolling when modal is open
+  }
+
+  // Close modal
+  span.onclick = function() {
+      modal.style.display = "none";
+      document.body.style.overflow = 'auto'; // Re-enable scrolling
+  }
+
+  // Close modal when clicking outside
+  window.onclick = function(event) {
+      if (event.target == modal) {
+          modal.style.display = "none";
+          document.body.style.overflow = 'auto'; // Re-enable scrolling
+      }
+  }
+
+  // Close modal with Escape key
+  document.addEventListener('keydown', function(event) {
+      if (event.key === "Escape" && modal.style.display === "block") {
+          modal.style.display = "none";
+          document.body.style.overflow = 'auto'; // Re-enable scrolling
+      }
+  });
 });
