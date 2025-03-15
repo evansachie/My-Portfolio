@@ -378,6 +378,44 @@ section .title::after {
   margin-top: 2rem;
 }
 
+.education {
+  background: #111;
+  color: #fff;
+}
+
+.education .title::before {
+  background: #fff;
+}
+
+.education .title {
+  color: #fff;
+}
+
+.education-card {
+  background: #fff;
+  padding: 2rem;
+  border-radius: 15px;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  transition: transform 0.3s ease;
+}
+
+.education-card:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 8px 20px rgba(0, 0, 0, 0.4);
+}
+
+.education-card h3 {
+  color: #333;
+}
+
+.education-card .education-location,
+.education-card .education-degree,
+.education-card .education-date,
+.education-card .education-gpa,
+.education-card ul li {
+  color: #666;
+}
+
 .education-card {
   background: #fff;
   padding: 2rem;
