@@ -110,4 +110,19 @@ $(document).ready(function () {
           document.body.style.overflow = 'auto'; // Re-enable scrolling
       }
   });
+
+  // Load More functionality
+  $("#loadMoreFrontend").click(function() {
+    $("#moreFrontendProjects").slideToggle();
+    $(this).text(function(i, text) {
+        return text === "Load More Projects" ? "Show Less" : "Load More Projects";
+    });
+  });
+
+  $("#loadMoreUiUx").click(function() {
+    $("#moreUiUxProjects").slideToggle();
+    $(this).text(function(i, text) {
+        return text === "Load More Projects" ? "Show Less" : "Load More Projects";
+    });
+  });
 });

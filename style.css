@@ -1036,6 +1036,32 @@ section .title::after {
   }
 }
 
+/* Load More button styling */
+.load-more-container {
+    text-align: center;
+    margin: 2rem 0;
+}
+
+.load-more-btn {
+    background: crimson;
+    color: white;
+    border: none;
+    padding: 12px 30px;
+    font-size: 16px;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    border: 2px solid crimson;
+}
+
+.load-more-btn:hover {
+    background: transparent;
+    color: crimson;
+}
+
+.hidden {
+    display: none;
+}
 
 /* contact section styling */
 .contact .title::after {
