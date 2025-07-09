@@ -1,10 +1,10 @@
 # 🚀 Evans Acheampong - Portfolio Website
 
 <div align="center">
-  <img width="941" alt="Portfolio Preview" src="https://github.com/AWESOME04/My-Portfolio/assets/102630199/aa0cc0ac-b7a7-46df-a8e1-df0dc276d0ec">
+  <img width="941" alt="Portfolio Preview" src="https://github.com/evansachie/My-Portfolio/assets/102630199/aa0cc0ac-b7a7-46df-a8e1-df0dc276d0ec">
 
   <p>
-    <a href="https://awesome04.github.io/My-Portfolio/">View Live Demo</a>
+    <a href="https://evansachie.github.io/My-Portfolio/">View Live Demo</a>
     ·
     <a href="https://docs.google.com/document/d/1gpORkRZyuzpHzz-rwkzvZeXAc_RI5nTvI1R1NNMsp6c/edit?usp=sharing">View Resume</a>
   </p>
@@ -87,7 +87,7 @@ My-Portfolio/
 
 1. Clone the repository:
    ```bash
-   git clone https://github.com/AWESOME04/My-Portfolio.git
+   git clone https://github.com/evansachie/My-Portfolio.git
    ```
 
 2. Open `index.html` in your browser to view the website locally
@@ -98,7 +98,7 @@ Evans Acheampong - [evansachie01@gmail.com](mailto:evansachie01@gmail.com)
 
 LinkedIn - [Evans Acheampong](https://www.linkedin.com/in/evans-acheampong/)
 
-Project Link: [https://github.com/AWESOME04/My-Portfolio](https://github.com/AWESOME04/My-Portfolio)
+Project Link: [https://github.com/evansachie/My-Portfolio](https://github.com/evansachie/My-Portfolio)
 
 ## 🙏 Acknowledgments
 
