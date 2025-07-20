@@ -4,7 +4,7 @@
   <img width="941" alt="Portfolio Preview" src="https://github.com/evansachie/My-Portfolio/assets/102630199/aa0cc0ac-b7a7-46df-a8e1-df0dc276d0ec">
 
   <p>
-    <a href="https://evansachie.github.io/My-Portfolio/">View Live Demo</a>
+    <a href="https://evansdev.vercel.app/">View Live Demo</a>
     ·
     <a href="https://docs.google.com/document/d/1gpORkRZyuzpHzz-rwkzvZeXAc_RI5nTvI1R1NNMsp6c/edit?usp=sharing">View Resume</a>
   </p>
@@ -40,48 +40,9 @@ My-Portfolio/
 ├── style.css           # Main stylesheet
 ├── script.js           # JavaScript functionality
 ├── images/            # Image assets
+├── assets/            # resume
 └── README.md          # Project documentation
 ```
-
-## 📂 Project Categories
-
-### 💻 Frontend & Fullstack Projects
-
-1. **Multi-Vendor System**
-   - A comprehensive e-commerce platform
-   - Technologies: React.js, Node.js, PostgreSQL, RabbitMQ, Cloudinary
-
-2. **BaseWatch**
-   - Time management web application
-   - Technologies: React.js, TypeScript, .NET, Firebase
-
-3. **Notes App**
-   - Minimalist note-taking application
-   - Technologies: React.js, Local Storage, CSS3
-
-4. **PokeAPI Integration**
-   - Comprehensive Pokémon information platform
-   - Technologies: React.js, PokeAPI, CSS3
-
-### ⚡ Hardware Projects
-
-1. **Smart Home System**
-   - IoT-based home automation
-   - Technologies: Arduino Mega, C/C++, IoT
-
-2. **Gesture Recognition System**
-   - TinyML-powered gesture recognition
-   - Technologies: Arduino RP2040, TinyML, C/C++
-
-### 🎨 UI/UX Design Projects
-
-1. **Techintran Website**
-   - Modern IT company website design
-   - Tools: Figma, Design Systems
-
-2. **Domino's Pizza Redesign**
-   - Comprehensive UX research and redesign
-   - Tools: Figma, User Research, Prototyping
 
 ## 🚀 Getting Started
 
