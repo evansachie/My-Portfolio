@@ -13,6 +13,13 @@
     <link href="style.css" rel="stylesheet">
 </head>
 <body>
+    <section class="banner-section" aria-hidden="true">
+        <div class="banner-wrap">
+            <img src="images/banner.jpg" alt="" class="banner">
+            <div class="banner-overlay"></div>
+        </div>
+    </section>
+    <div class="page-wrap">
     <main class="main main--page">
         <p class="label"><a href="index.html" class="back-link">← Home</a></p>
         <div class="block" id="projects">
@@ -39,23 +46,55 @@
             </div>
             <p class="link-more-wrap"><a href="https://github.com/evansachie?tab=repositories" target="_blank" rel="noopener" class="link-more">More on GitHub</a></p>
         </div>
+
+        <hr class="block-hr">
+
+        <div class="block" id="designs">
+            <p class="label">Designs</p>
+            <div class="project-list">
+                <div class="work-row work-row--no-date">
+                    <div class="work-details">
+                        <p class="work-line"><a href="https://www.figma.com/file/jWK0xJcNZk4r2kL8xfj0Vl/SKILLHUB" target="_blank" rel="noopener">SkillHub</a></p>
+                        <p class="work-meta">E-learning platform. Figma.</p>
+                    </div>
+                </div>
+                <div class="work-row work-row--no-date">
+                    <div class="work-details">
+                        <p class="work-line"><a href="https://www.figma.com/design/dxBKIDBjBaYjannJzO4Ffq/TERRA" target="_blank" rel="noopener">TERRA</a></p>
+                        <p class="work-meta">Rental platform for Ghana. Mobile-first, Figma.</p>
+                    </div>
+                </div>
+                <div class="work-row work-row--no-date">
+                    <div class="work-details">
+                        <p class="work-line"><a href="https://www.figma.com/design/6cbMQnPOWtgHCPsT9OZmKE/Troko" target="_blank" rel="noopener">Troko</a></p>
+                        <p class="work-meta">Logistics and cargo delivery. Requester, driver, admin. Figma.</p>
+                    </div>
+                </div>
+                <div class="work-row work-row--no-date">
+                    <div class="work-details">
+                        <p class="work-line"><a href="https://www.figma.com/file/8Bcyd0u3wEWXTygWfJ6Z36/StudentConnect" target="_blank" rel="noopener">StudentConnect</a></p>
+                        <p class="work-meta">Student platform, ride-sharing to campus events. Figma.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
     </main>
 
     <footer class="footer">
         <div class="footer-inner">
             <div class="footer-left">
                 <a href="https://github.com/evansachie" target="_blank" rel="noopener" class="footer-link">github.com/evansachie</a>
-                <span class="footer-meta">2025</span>
+                <span class="footer-meta">2026</span>
             </div>
             <div class="footer-right">
-                <span class="footer-location">Accra</span>
+                <span class="footer-location">Accra; <span id="footerTime"></span></span>
             </div>
         </div>
     </footer>
+    </div>
 
     <nav class="bottom-nav" aria-label="Main navigation">
         <a href="index.html" class="bottom-nav__link" aria-label="Home"><i class="fas fa-home"></i></a>
-        <a href="index.html#work" class="bottom-nav__link" aria-label="Work"><i class="fas fa-briefcase"></i></a>
         <a href="projects.html" class="bottom-nav__link bottom-nav__link--active" aria-label="Projects"><i class="fas fa-folder-open"></i></a>
         <a href="index.html#contact" class="bottom-nav__link" aria-label="Contact"><i class="fas fa-envelope"></i></a>
         <button type="button" class="bottom-nav__link js-resume-btn" aria-label="Resume"><i class="fas fa-file-alt"></i></button>

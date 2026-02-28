@@ -5,6 +5,27 @@
   var resumeBtns = document.querySelectorAll(".js-resume-btn");
   var closeBtn = document.querySelector(".modal-close");
 
+  function formatTime(date) {
+    var h = date.getHours();
+    var m = date.getMinutes();
+    var s = date.getSeconds();
+    var ampm = h >= 12 ? "PM" : "AM";
+    h = h % 12 || 12;
+    m = m < 10 ? "0" + m : m;
+    s = s < 10 ? "0" + s : s;
+    return h + ":" + m + ":" + s + " " + ampm;
+  }
+
+  function updateFooterTime() {
+    var el = document.getElementById("footerTime");
+    if (el) el.textContent = formatTime(new Date());
+  }
+
+  updateFooterTime();
+  if (document.getElementById("footerTime")) {
+    setInterval(updateFooterTime, 1000);
+  }
+
   function openModal() {
     if (modal) {
       modal.style.display = "flex";
