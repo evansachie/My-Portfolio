@@ -26,7 +26,7 @@
             <a href="#" class="name">Evans Acheampong</a>
         </p>
         <p class="resume-wrap">
-            <button type="button" class="btn-text js-resume-btn">View resume</button>
+            <a href="./assets/resume.pdf" target="_blank" rel="noopener" class="btn-text">View resume</a>
         </p>
 
         <div class="block" id="now">
@@ -94,7 +94,8 @@
         <div class="footer-inner">
             <div class="footer-left">
                 <a href="https://github.com/evansachie" target="_blank" rel="noopener" class="footer-link">github.com/evansachie</a>
-                <span class="footer-meta">2026</span>
+                <span class="footer-sep">·</span>
+                <span class="footer-meta">© 2026</span>
             </div>
             <div class="footer-right">
                 <span class="footer-location">Accra; <span id="footerTime"></span></span>
@@ -107,23 +108,8 @@
         <a href="index.html" class="bottom-nav__link bottom-nav__link--active" aria-label="Home"><i class="fas fa-home"></i></a>
         <a href="projects.html" class="bottom-nav__link" aria-label="Projects"><i class="fas fa-folder-open"></i></a>
         <a href="index.html#contact" class="bottom-nav__link" aria-label="Contact"><i class="fas fa-envelope"></i></a>
-        <button type="button" class="bottom-nav__link js-resume-btn" aria-label="Resume"><i class="fas fa-file-alt"></i></button>
+        <a href="./assets/resume.pdf" target="_blank" rel="noopener" class="bottom-nav__link" aria-label="Resume"><i class="fas fa-file-alt"></i></a>
     </nav>
-
-    <div id="resumeModal" class="modal">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h3 class="modal-title">Resume</h3>
-                <div class="modal-header-actions">
-                    <a href="./assets/resume.pdf" target="_blank" rel="noopener" class="modal-open-pdf">Open in new tab</a>
-                    <button type="button" class="modal-close" aria-label="Close">×</button>
-                </div>
-            </div>
-            <div class="modal-body">
-                <embed src="./assets/resume.pdf" type="application/pdf" class="resume-pdf">
-            </div>
-        </div>
-    </div>
 
     <script src="script.js"></script>
 </body>

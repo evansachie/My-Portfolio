@@ -248,6 +248,19 @@ a:hover {
   color: var(--accent);
 }
 
+.work-gh {
+  font-weight: 400;
+  font-size: 0.8125rem;
+  color: var(--text-muted);
+  text-decoration: none;
+  margin-left: 0.5rem;
+}
+
+.work-gh:hover {
+  color: var(--accent);
+  text-decoration: underline;
+}
+
 .work-meta {
   font-size: 0.875rem;
   color: var(--text-muted);
@@ -323,6 +336,12 @@ a:hover {
   text-decoration: underline;
 }
 
+.footer-sep {
+  color: var(--text-muted);
+  opacity: 0.6;
+  user-select: none;
+}
+
 .footer-meta {
   color: var(--text-muted);
   opacity: 0.85;
@@ -335,94 +354,6 @@ a:hover {
 
 .footer-location {
   color: var(--text-muted);
-}
-
-/* --- Modal --- */
-.modal {
-  display: none;
-  position: fixed;
-  z-index: 9999;
-  inset: 0;
-  background-color: rgba(0, 0, 0, 0.8);
-  align-items: center;
-  justify-content: center;
-  padding: 1.5rem;
-  box-sizing: border-box;
-}
-
-.modal-content {
-  display: flex;
-  flex-direction: column;
-  background: var(--bg-elevated);
-  width: 100%;
-  max-width: 900px;
-  height: 90vh;
-  max-height: 90vh;
-  border-radius: 12px;
-  box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.5);
-  overflow: hidden;
-}
-
-.modal-header {
-  flex-shrink: 0;
-  display: flex;
-  align-items: center;
-  justify-content: space-between;
-  padding: 1rem 1.25rem;
-  border-bottom: 1px solid var(--border);
-}
-
-.modal-title {
-  font-size: 1rem;
-  font-weight: 600;
-  color: var(--text);
-}
-
-.modal-header-actions {
-  display: flex;
-  align-items: center;
-  gap: 1rem;
-}
-
-.modal-open-pdf {
-  font-size: 0.8125rem;
-  color: var(--accent);
-}
-
-.modal-open-pdf:hover {
-  color: var(--accent-hover);
-}
-
-.modal-close {
-  background: none;
-  border: none;
-  color: var(--text-muted);
-  font-size: 1.5rem;
-  line-height: 1;
-  cursor: pointer;
-  padding: 0.25rem;
-}
-
-.modal-close:hover {
-  color: var(--text);
-}
-
-.modal-body {
-  flex: 1;
-  min-height: 70vh;
-  overflow: auto;
-  background: #1a1a1a;
-  display: flex;
-  flex-direction: column;
-}
-
-.resume-pdf {
-  display: block;
-  width: 100%;
-  min-height: 70vh;
-  height: 100%;
-  border: none;
-  flex: 1;
 }
 
 @media (max-width: 640px) {
@@ -499,18 +430,24 @@ a:hover {
 .bottom-nav__link--active {
   background: var(--accent);
   color: #fff;
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.25);
 }
 
 .bottom-nav__link--active:hover {
   background: var(--accent-hover);
   color: #fff;
+  box-shadow: 0 0 0 2px rgba(255, 255, 255, 0.3);
 }
 
 .back-link {
+  font-size: 0.6875rem;
+  font-weight: 600;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
   color: var(--text-muted);
-  font-size: 0.875rem;
-  margin-bottom: 1rem;
+  margin-bottom: 1.25rem;
   display: inline-block;
+  text-decoration: none;
 }
 
 .back-link:hover {
@@ -518,5 +455,13 @@ a:hover {
 }
 
 .main--page {
-  padding-top: 2.5rem;
+  padding-top: 4rem;
+}
+
+.project-list .work-meta,
+.work-details .work-meta {
+  font-size: 0.875rem;
+  color: var(--text-muted);
+  line-height: 1.5;
+  margin-top: 0.15rem;
 }
