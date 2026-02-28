@@ -2,14 +2,13 @@
   "use strict";
 
   function formatTime(date) {
-    var h = date.getHours();
-    var m = date.getMinutes();
-    var s = date.getSeconds();
-    var ampm = h >= 12 ? "PM" : "AM";
-    h = h % 12 || 12;
-    m = m < 10 ? "0" + m : m;
-    s = s < 10 ? "0" + s : s;
-    return h + ":" + m + ":" + s + " " + ampm;
+    return new Intl.DateTimeFormat("en-US", {
+      timeZone: "Africa/Accra",
+      hour: "numeric",
+      minute: "2-digit",
+      second: "2-digit",
+      hour12: true,
+    }).format(date);
   }
 
   function updateFooterTime() {
