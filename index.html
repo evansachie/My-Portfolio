@@ -1,847 +1,124 @@
 <!DOCTYPE html>
 <html lang="en">
 <head>
-    <meta charset="UTF-8"/>
-    <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
-    <meta content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=no" name="viewport"/>
-    <meta name="description" content="Evans Acheampong - Computer Engineering Student and Full Stack Developer Portfolio">
-    <meta name="keywords" content="Evans Acheampong, Portfolio, Full Stack Developer, Computer Engineering, UI/UX Design">    <title>Evans Acheampong - Portfolio</title>
-    <link rel="icon" type="image/png" href="images/logo.PNG">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Evans Acheampong - Software Engineer | First Class Honours, University of Ghana">
+    <meta name="keywords" content="Evans Acheampong, Software Engineer, Full Stack, University of Ghana, Portfolio">
+    <title>Evans Acheampong</title>
+    <link rel="icon" type="image/png" href="images/logo.png">
     <link rel="preconnect" href="https://fonts.googleapis.com">
     <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="style.css" rel="stylesheet"/>
-    <link href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" rel="stylesheet"/>
-    <script defer src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
-    <script defer src="https://cdnjs.cloudflare.com/ajax/libs/typed.js/2.0.12/typed.min.js"></script>
-    <script defer src="script.js"></script>
+    <link href="https://fonts.googleapis.com/css2?family=Nunito:ital,wght@0,400;0,600;0,700;1,400&display=swap" rel="stylesheet">
+    <link href="https://pro.fontawesome.com/releases/v5.10.0/css/all.css" rel="stylesheet">
+    <link href="style.css" rel="stylesheet">
 </head>
 <body>
-<!-- Scroll Button start -->
-<div class="scroll-up-btn">
-    <i class="fas fa-angle-double-up"></i>
-</div>
-<!-- Scroll Button end -->
-<!-- Navbar Start-->
-<nav class="navbar">
-    <div class="max-width">
-        <div class="logo">
-            <a href="#">Evans Acheampong <span>Portfolio</span> </a>
+    <section class="banner-section" aria-hidden="true">
+        <div class="banner-wrap">
+            <img src="images/banner.jpg" alt="" class="banner">
+            <div class="banner-overlay"></div>
         </div>
-        <ul class="menu">
-            <li>
-                <a class="menu-btn" href="#home">Home</a>
-            </li>
-            <li>
-                <a class="menu-btn" href="#about">About</a>
-            </li>
-            <li>
-                <a class="menu-btn" href="#education">Education</a>
-            </li>
-            <li>
-                <a class="menu-btn" href="#experience">Experience</a>
-            </li>
-            <li>
-                <a class="menu-btn" href="#skills">Skills</a>
-            </li>
-            <li>
-                <a class="menu-btn" href="#projects">Projects</a>
-            </li>
-            <li>
-                <a class="menu-btn" href="#contact">Contact</a>
-            </li>
-        </ul>
-        <div class="menu-btn">
-            <i class="fas fa-bars"></i>
-        </div>
-    </div>
-</nav>
-<!-- Navbar End -->
-<!-- Home Section Start -->
-<section class="home" id="home">
-    <div class="max-width">
-        <div class="home-content">
-            <div class="text-1">Hello 👋, I'm</div>
-            <div class="text-2">Evans Acheampong</div>
-            <div class="text-3">I'm a <span class="typing"></span></div>
-            <div class="cta-buttons">
-                <a class="web" href="#projects">View My Work <i class="fas fa-arrow-right"></i></a>
-                <a href="https://www.linkedin.com/in/evans-acheampong/" target="_blank" rel="noopener">Let's Connect <i class="fas fa-arrow-right"></i></a>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- Home Section End -->
-<!-- About section start -->
-<section class="about" id="about">
-    <div class="max-width">
-        <h2 class="title fadein">About Me</h2>
-        <div class="about-content">
-            <div class="column left">
-                <img alt="Evans Acheampong - Profile" src="images/profile-image.png"/>
-            </div>
-            <div class="column right">
-                <div class="text">Computer Engineering Student & Software Engineer</div>
-                <p>
-                    👋 Hey, I'm Evans, a final-year Computer Engineering student at the University of Ghana.  
-                    I love turning ideas into functional, user-friendly digital experiences.  
-                    <br/><br/>
-                    💻 My journey in tech revolves around full-stack development and UI/UX design, crafting solutions that blend efficiency with aesthetics.   
-                </p>                
-                <div class="resume-button">
-                    <button id="viewResumeBtn" class="resume-btn">View Resume <i class="fas fa-external-link-alt"></i></button>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-<!-- About section end -->
-
-<!-- Education Section start -->
-<section class="education" id="education">
-    <div class="max-width">
-        <h2 class="title fadein">Education</h2>
-        <div class="education-wrapper">
-            <div class="education-card">
-                <h3>
-                    <a href="https://www.ug.edu.gh/" target="_blank">University of Ghana – Legon 
-                    </a>
-                </h3>
-                <p class="education-location"><i>Ranked 1st in West Africa</i></p>
-                <p class="education-location">Accra, Ghana</p>
-                
-                <p class="education-degree">Major: Bachelor of Science in Computer Engineering</p>
-                <p class="education-date">Expected Graduation: September 2025</p>
-                <div class="education-courses">
-                    <p class="course-title">Key Coursework:</p>
-                    <ul>
-                        <li>Object-Oriented Programming</li>
-                        <li>Data Structures and Algorithms</li>
-                        <li>Database Management Systems</li>
-                        <li>Software Engineering</li>
-                        <li>Introduction to Data Science</li>
-                        <li>Computer Engineering Innovation</li>
-                    </ul>
-                </div>
-            </div>
-
-            <div class="education-card">
-                <h3><a href="https://a2sv.org/" target="_blank">Africa to Silicon Valley (A2SV)</a></h3>
-                <p class="education-location">Backed by Google</p>
-                <p class="education-date">May 2023 – May 2025</p>
-                <div class="education-details">
-                    <ul>
-                        <li>
-                            Participate in intensive training on 
-                            <a href="https://github.com/evansachie/Competitive-Programming" target="_blank">Competitive Programming</a> 
-                            and Hackathons, including the development of 
-                            <a href="https://github.com/Serkhani/StudentConnect" target="_blank">StudentConnect</a>
-                        </li>
-                        <li>
-                            Collaborate with team to develop 
-                            <a href="https://github.com/A2SV/Terra" target="_blank">Terra</a>, an innovative rental platform
-                        </li>
-                        <li>
-                            Part of program with 70% success rate placing students in top tech companies
-                        </li>
-                    </ul>                    
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Work Experience Section start -->
-<section class="experience" id="experience">
-    <div class="max-width">
-        <h2 class="title fadein">Work Experience</h2>
-        <div class="experience-wrapper">
-            <div class="experience-card">
-                <div class="experience-header">
-                    <h3>Junior Software Engineer</h3>
-                    <a href="https://digiits.com/" class="company">Digiits Agency</a>
-                    <p class="date">June 2024 – Present</p>
-                </div>
-                <ul class="experience-details">
-                    <li>Develop and implement <b>15+ responsive UI components</b> using <b>TypeScript, React, and Tailwind CSS</b> within an Agile framework, leveraging <b>CI/CD</b> practices and <b>RESTful API</b> integrations to enhance user engagement</li>
-                    <li>Collaborated with cross-functional teams using <b>Scrum</b> methodologies to streamline development cycles and implement robust <b>unit testing protocols</b>, significantly enhancing code reliability.</li>
-                </ul>
-            </div>
-
-            <div class="experience-card">
-                <div class="experience-header">
-                    <h3>Frontend Developer Intern</h3>
-                    <a href="https://digiits.com/" class="company">Digiits Agency</a>
-                    <p class="date">January 2024 – March 2024</p>
-                </div>
-                <ul class="experience-details">
-                    <li>Designed an <a href="https://www.figma.com/file/jWK0xJcNZk4r2kL8xfj0Vl/SKILLHUB?type=design&node-id=65%3A12&mode=design&t=OUFa3eybkcqU6X9t-1" target="_blank">E-Learning Platform</a> prototype with social media-inspired features</li>
-                    <li>Identified and resolved 15+ critical bugs through pair programming and code reviews</li>
-                </ul>
-            </div>
-
-            <div class="experience-card">
-                <div class="experience-header">
-                    <h3>Software Engineer Intern</h3>
-                    <a href="https://www.trestleacademyghana.org/" class="company">Trestle Academy Ghana</a>
-                    <p class="date">May 2023 – September 2023</p>
-                </div>
-                <ul class="experience-details">
-                    <li>Created <b>TaskFlow</b>, a responsive to-do app with drag-and-drop, theme switching, and support for 50+ tasks using <b>HTML5, SCSS, and JavaScript</b>; earned a <b>4-star rating</b> on Frontend Mentor.</li>
-                    <li>Developed <b>Pokedex</b>, a React-based web app integrated with PokeAPI, featuring pagination and responsive design</li>
-                </ul>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Skills section start -->
-<section class="skills" id="skills">
-    <div class="max-width">
-        <h2 class="title fadein">Skills</h2>
-        <div class="skills-content">
-            <div class="skills-category">
-                <h3>Programming Languages</h3>
-                <div class="skills-list">
-                    <span>Python</span>
-                    <span>JavaScript</span>
-                    <span>TypeScript</span>
-                </div>
-            </div>
-            
-            <div class="skills-category">
-                <h3>Web Development</h3>
-                <div class="skills-list">
-                    <span>React JS</span>
-                    <span>Next JS</span>
-                    <span>Express JS</span>
-                    <span>HTML5</span>
-                    <span>CSS3</span>
-                    <span>.NET</span>
-                    <span>Tailwind CSS</span>
-                    <span>PostgreSQL</span>
-                    <span>Firebase</span>
-                </div>
-            </div>
-            
-            <div class="skills-category">
-                <h3>Tools & Software</h3>
-                <div class="skills-list">
-                    <span>Git</span>
-                    <span>GitHub</span>
-                    <span>Figma</span>
-                    <span>Raspberry Pi</span>
-                    <span>Arduino</span>
-                    <span>Postman</span>
-                    <span>AWS</span>
-                    <span>Docker</span>
-                    <span>Unix/Linux</span>
-                </div>
-            </div>
-        </div>
-    </div>
-</section>
-
-<!-- Projects Section 1 end -->
-<section class="projects" id="projects">
-    <div class="max-width">
-        <h2 class="title fadein">Projects</h2>
-        <h3 class="section-subtitle">Fullstack Projects</h3>
-        <div class="project-containers">
-
-            <div class="project-card">
-                <div class="project-image">
-                    <a href="https://lifeguard-vert.vercel.app/" target="_blank">
-                        <img alt="FreshVegs" src="./images/lifeguard.png"/>
-                    </a>
-                </div>
-                <div class="project-info">
-                    <h3 class="project-title">LifeGuard</h3>
-                    <p class="project-description">
-                        LifeGuard is a wearable system that monitors motion, health, and the environment, 
-                        providing real-time alerts for safety and well-being.
-                    </p>
-                    <div class="project-tech">
-                        <span>React.js</span>
-                        <span>.NET</span>
-                        <span>Node.js</span>
-                        <span>Tailwind CSS</span>
-                        <span>PostgreSQL</span>
-                        <span>Flutter</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="https://github.com/evansachie/LifeGuard" target="_blank">
-                            <i class="fab fa-github"></i> View Code
-                        </a>
-                        <a href="https://lifeguard-vert.vercel.app/" target="_blank">
-                            <i class="fas fa-external-link-alt"></i> Live Demo
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="project-card">
-                <div class="project-image">
-                    <a href="https://uni-hive.vercel.app/" target="_blank">
-                        <img alt="UniHive" src="./images/unihive.PNG"/>
-                    </a>
-                </div>
-                <div class="project-info">
-                    <h3 class="project-title">UniHive</h3>
-                    <p class="project-description">
-                       UniHive is a university-centric task exchange platform where students can post tasks, offer services, and trade items within their campus community after verification through their university email addresses.
-                    </p>
-                    <div class="project-tech">
-                        <span>React.js</span>
-                        <span>Tailwind CSS</span>
-                        <span>Node.js</span>
-                        <span>PostgreSQL</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="https://github.com/evansachie/UniHive" target="_blank">
-                            <i class="fab fa-github"></i> View Code
-                        </a>
-                        <a href="https://uni-hive.vercel.app/" target="_blank">
-                            <i class="fas fa-external-link-alt"></i> Live Demo
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="project-card">
-                <div class="project-image">
-                    <a href="https://sparklink-lyart.vercel.app/" target="_blank">
-                        <img alt="SparkLink" src="./images/spark.PNG"/>
-                    </a>
-                </div>
-                <div class="project-info">
-                    <h3 class="project-title">SparkLink</h3>
-                    <p class="project-description">
-                        A modern web platform designed to consolidate and share social media links in a single, user-friendly profile.
-                    </p>
-                    <div class="project-tech">
-                        <span>React.js</span>
-                        <span>Typescript</span>
-                        <span>Tailwind CSS</span>
-                        <span>Node.js</span>
-                        <span>PostgreSQL</span>
-                        <span>Prisma</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="https://github.com/evansachie/SparkLink" target="_blank">
-                            <i class="fab fa-github"></i> View Code
-                        </a>
-                        <a href="https://sparklink-lyart.vercel.app/" target="_blank">
-                            <i class="fas fa-external-link-alt"></i> Live Demo
-                        </a>
-                    </div>
-                </div>  
-            </div>
-
-            <div class="project-card">
-                <div class="project-image">
-                    <a href="https://fps-one.vercel.app/" target="_blank">
-                        <img alt="Shop Stock" src="./images/filz.PNG"/>
-                    </a>
-                </div>
-                <div class="project-info">
-                    <h3 class="project-title">Filz Property Services</h3>
-                    <p class="project-description">
-                        A full-featured property management system with admin and superadmin roles, allowing property listings, appointment scheduling, deal tracking, and comprehensive user management
-                    </p>
-                    <div class="project-tech">
-                        <span>React.js</span>
-                        <span>Tailwind CSS</span>
-                        <span>Node.js</span>
-                        <span>MongoDB</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="https://fps-one.vercel.app/" target="_blank">
-                            <i class="fas fa-external-link-alt"></i> Live Demo
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="project-card">
-                <div class="project-image">
-                    <a href="https://audiophile-ecommerce-puce.vercel.app/" target="_blank">
-                        <img alt="Shop Stock" src="./images/audiophile.PNG"/>
-                    </a>
-                </div>
-                <div class="project-info">
-                    <h3 class="project-title">Audiophile</h3>
-                    <p class="project-description">
-                        Frontend for a multi-page e-commerce website built with React, TypeScript & Tailwind CSS. 
-                        Features responsive design, shopping cart functionality, checkout process with form validation, and order confirmation.
-                    </p>
-                    <div class="project-tech">
-                        <span>React.js</span>
-                        <span>Tailwind CSS</span>
-                        <span>TypeScript</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="https://github.com/evansachie/audiophile-ecommerce" target="_blank">
-                            <i class="fab fa-github"></i> View Code
-                        </a>
-                        <a href="https://audiophile-ecommerce-puce.vercel.app/" target="_blank">
-                            <i class="fas fa-external-link-alt"></i> Live Demo
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <div class="project-card">
-                <div class="project-image">
-                    <a href="https://vercel-clone-psi.vercel.app/" target="_blank">
-                        <img alt="BaseWatch" src="./images/vercel.PNG"/>
-                    </a>
-                </div>
-                <div class="project-info">
-                    <h3 class="project-title">Vercel Clone</h3>
-                    <p class="project-description">
-                        A Clone of the Vercel homepage: a platform that allows users to deploy their web applications with ease, providing a seamless experience for developers.
-                    </p>
-                    <div class="project-tech">
-                        <span>React.js</span>
-                        <span>Tailwind CSS</span>
-                        <span>TypeScript</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="https://github.com/evansachie/vercel-ui-clone" target="_blank">
-                            <i class="fab fa-github"></i> View Code
-                        </a>
-                        <a href="https://vercel-clone-psi.vercel.app/" target="_blank">
-                            <i class="fas fa-external-link-alt"></i> Live Demo
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Projects Section 2 start - Hardware -->
-        <h3 class="section-subtitle">Hardware & IoT Projects</h3>
-        <div class="project-containers">
-            <!-- Smart Home -->
-            <div class="project-card">
-                <div class="project-image">
-                    <a href="https://github.com/evansachie/Smart-Home" target="_blank">
-                        <img alt="Smart Home" src="./images/Smart Home Overview.PNG"/>
-                    </a>
-                </div>
-                <div class="project-info">
-                    <h3 class="project-title">Smart Home System</h3>
-                    <p class="project-description">
-                        IoT-based home automation system using Arduino, featuring temperature monitoring, gas detection, and remote control capabilities.
-                    </p>
-                    <div class="project-tech">
-                        <span>Arduino Mega</span>
-                        <span>C/C++</span>
-                        <span>IoT</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="https://github.com/evansachie/Smart-Home" target="_blank">
-                            <i class="fab fa-github"></i> View Code
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Gesture Recognition -->
-            <div class="project-card">
-                <div class="project-image">
-                    <a href="https://github.com/evansachie/Gesture-Recognition" target="_blank">
-                        <img alt="Gesture Recognition" src="./images/Gesture Recognition.PNG"/>
-                    </a>
-                </div>
-                <div class="project-info">
-                    <h3 class="project-title">Gesture Recognition System</h3>
-                    <p class="project-description">
-                        TinyML-powered gesture recognition system using Arduino Nano for remote physiotherapy applications.
-                    </p>
-                    <div class="project-tech">
-                        <span>TinyML</span>
-                        <span>Arduino RP2040</span>
-                        <span>C/C++</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="https://github.com/evansachie/Gesture-Recognition" target="_blank">
-                            <i class="fab fa-github"></i> View Code
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Game Controller -->
-            <div class="project-card">
-                <div class="project-image">
-                    <a href="https://github.com/evansachie/Arduino-Game-Controller" target="_blank">
-                        <img alt="Game Controller" src="https://user-images.githubusercontent.com/102630199/219422937-d99794fb-efb9-432c-b523-b6b503f91d46.png"/>
-                    </a>
-                </div>
-                <div class="project-info">
-                    <h3 class="project-title">Arduino Game Controller</h3>
-                    <p class="project-description">
-                        Custom game controller built with Arduino, featuring multiple buttons and joystick functionality for enhanced gaming experience.
-                    </p>
-                    <div class="project-tech">
-                        <span>Arduino BLE Sense</span>
-                        <span>C/C++</span>
-                        <span>PIR Motion Sensor</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="https://github.com/evansachie/Arduino-Game-Controller" target="_blank">
-                            <i class="fab fa-github"></i> View Code
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- PIR Motion Sensor -->
-            <div class="project-card">
-                <div class="project-image">
-                    <a href="https://github.com/evansachie/PIR-Motion-Sensor-Light-Control-with-STM32H743" target="_blank">
-                        <img alt="PIR Motion Sensor" src="./images/stm.jpg"/>
-                    </a>
-                </div>
-                <div class="project-info">
-                    <h3 class="project-title">PIR Motion Sensor Light Control</h3>
-                    <p class="project-description">
-                        Interface project using HC-SR501 PIR sensor with STM32 microcontroller for motion detection and light control.
-                    </p>
-                    <div class="project-tech">
-                        <span>STM32</span>
-                        <span>C/C++</span>
-                        <span>Python Text to Speech</span>
-                        <span>Excel Data Streamer</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="https://github.com/evansachie/PIR-Motion-Sensor-Light-Control-with-STM32H743" target="_blank">
-                            <i class="fab fa-github"></i> View Code
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- IoT Air Monitoring -->
-            <div class="project-card">
-                <div class="project-image">
-                    <a href="https://github.com/evansachie/IoT-Air-Monitoring-System" target="_blank">
-                        <img alt="IoT Air Monitoring" src="./images/air.jpg"/>
-                    </a>
-                </div>
-                <div class="project-info">
-                    <h3 class="project-title">IoT Air Monitoring System</h3>
-                    <p class="project-description">
-                        Real-time environmental monitoring system that detects various pollutants and alerts users about potential risks in urban areas.
-                    </p>
-                    <div class="project-tech">
-                        <span>IoT</span>
-                        <span>Waziup</span>
-                        <span>MQ Gas Sensors</span>
-                        <span>Data Visualization</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="https://github.com/evansachie/IoT-Air-Monitoring-System" target="_blank">
-                            <i class="fab fa-github"></i> View Code
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-
-        <!-- Projects Section 2 end - Hardware -->
-
-        <!-- View More Projects button -->
-        <div class="max-width">
-            <a
-                    class="view-more-projects-button"
-                    href="https://github.com/evansachie?tab=repositories"
-                    target="_blank"
-            >
-                View More Projects on GitHub
-            </a>
-        </div>
-        <br>
-        
-        <!-- Projects Section 3 start - UI/UX -->
-
-        <h3 class="section-subtitle">UI/UX Design Projects</h3>
-        <div class="project-containers">
-            <!-- Techintran Website -->
-            <div class="project-card">
-                <div class="project-image">
-                    <a href="https://www.figma.com/proto/iaDQYy7co6uSK9bZWyisSQ/Techintran-Website-Prototype---Main?page-id=0%3A1&node-id=8-305&starting-point-node-id=8%3A305&scaling=scale-down-width&mode=design&t=ZI55mEfftMgnvhkm-1" target="_blank">
-                        <img alt="Smart Home" src="https://github.com/evansachie/Mobile-Bank-Application/assets/102630199/6267e114-252e-45e2-944d-a3a4c92ddd77"/>
-                    </a>
-                </div>
-                <div class="project-info">
-                    <h3 class="project-title">Modern IT Company Website (Techintran)</h3>
-                    <p class="project-description">
-                        Techintran is a modern IT company website that offers a range of services, including web development, mobile app development, and digital marketing. The website features a clean and modern design, with a focus on user experience and responsiveness.
-                    </p>
-                    <div class="project-tech">
-                        <span>Figma</span>
-                        <span>Tech</span>
-                        <span>Web design</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="https://www.figma.com/proto/iaDQYy7co6uSK9bZWyisSQ/Techintran-Website-Prototype---Main?page-id=0%3A1&node-id=8-305&starting-point-node-id=8%3A305&scaling=scale-down-width&mode=design&t=ZI55mEfftMgnvhkm-1" target="_blank">
-                            <i class="fab fa-figma"></i> View on Figma
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Street Fund Global Foundation -->
-            <div class="project-card">
-                <div class="project-image">
-                    <a href="https://www.figma.com/file/5PshTrKPGeVTLqMsDfFscb/Street-Foundation?type=design&node-id=0%3A1&mode=design&t=z4seaR26lZMGAl6F-1" target="_blank">
-                        <img alt="Street Fund Global Foundation" src="https://github.com/evansachie/Mobile-Bank-Application/assets/102630199/849d6e9e-9b70-42ae-bc3a-c90059630a09"/>
-                    </a>
-                </div>
-                <div class="project-info">
-                    <h3 class="project-title">Street Fund Global Foundation</h3>
-                    <p class="project-description">
-                        Street Fund Global Foundation is a non-profit organization that focuses on providing financial support to underprivileged individuals and communities. 
-                        The organization's mission is to empower individuals and communities by providing financial assistance and education.
-                    </p>
-                    <div class="project-tech">
-                        <span>Charity Fund</span>
-                        <span>NGO</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="https://www.figma.com/file/5PshTrKPGeVTLqMsDfFscb/Street-Foundation?type=design&node-id=0%3A1&mode=design&t=z4seaR26lZMGAl6F-1" target="_blank">
-                            <i class="fab fa-figma"></i> View on Figma
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- TERRA -->
-            <div class="project-card">
-                <div class="project-image">
-                    <a href="https://www.figma.com/proto/dxBKIDBjBaYjannJzO4Ffq/TERRA?node-id=74-7451&t=R049ZLZE43AGMBbf-0&scaling=scale-down&content-scaling=fixed&page-id=1%3A2&starting-point-node-id=359%3A2416&show-proto-sidebar=1" target="_blank">
-                        <img alt="TERRA Rental Platform" src="./images/terra.png"/>
-                    </a>
-                </div>
-                <div class="project-info">
-                    <h3 class="project-title">TERRA</h3>
-                    <p class="project-description">
-                        Co-designed TERRA, a rental platform for discovering homes and apartments in Ghana, 
-                        with a focus on mobile usability and housing accessibility. Led the UI/UX design process, 
-                        creating user flows, wireframes, and high-fidelity prototypes in Figma to ensure a smooth and intuitive experience. 
-                    </p>
-                    <div class="project-tech">
-                        <span>Figma</span>
-                        <span>Mobile-first design</span>
-                        <span>UX</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="https://www.figma.com/design/dxBKIDBjBaYjannJzO4Ffq/TERRA?node-id=1158-4678&p=f&t=R049ZLZE43AGMBbf-0" target="_blank">
-                            <i class="fab fa-figma"></i> View on Figma
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- SkillHub -->
-            <div class="project-card">
-                <div class="project-image">
-                    <a href="https://www.figma.com/proto/jWK0xJcNZk4r2kL8xfj0Vl/SKILLHUB?page-id=65%3A12&type=design&node-id=65-29&viewport=-8163%2C13407%2C0.51&t=JK35oSBaqNbkUnn5-1&scaling=scale-down-width&starting-point-node-id=65%3A29&mode=design" target="_blank">
-                        <img alt="SkillsHub Web Prototype" src="https://github.com/user-attachments/assets/bb3422bd-1a7a-410e-877a-d05e64ee4017"/>
-                    </a>
-                </div>
-                <div class="project-info">
-                    <h3 class="project-title">SkillHub E-learning App 📚</h3>
-                    <p class="project-description">
-                        A comprehensive e-learning platform designed to enhance the learning experience for both students and instructors.
-                    </p>
-                    <div class="project-tech">
-                        <span>Figma</span>
-                        <span>Education</span>
-                        <span>UX</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="https://www.figma.com/file/jWK0xJcNZk4r2kL8xfj0Vl/SKILLHUB?type=design&node-id=65%3A12&mode=design&t=OUFa3eybkcqU6X9t-1" target="_blank">
-                            <i class="fab fa-figma"></i> View on Figma
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- StudentConnect -->
-            <div class="project-card">
-                <div class="project-image">
-                    <a href="https://www.figma.com/proto/8Bcyd0u3wEWXTygWfJ6Z36/StudentConnect?page-id=0%3A1&type=design&node-id=833-2814&viewport=-174%2C701%2C0.08&t=JypnzR1QJkwkANqA-1&scaling=scale-down&starting-point-node-id=833%3A2814&mode=design" target="_blank">
-                        <img alt="StudentConnect" src="https://github.com/user-attachments/assets/3939c656-bcd1-4b8b-b920-24db6b023a8c"/>
-                    </a>
-                </div>
-                <div class="project-info">
-                    <h3 class="project-title">StudentConnect 🎓</h3>
-                    <p class="project-description">
-                        A comprehensive student platform that streamlines academic and social experiences, from ride-sharing to campus events.
-                    </p>
-                    <div class="project-tech">
-                        <span>Figma</span>
-                        <span>Education</span>
-                        <span>Mobile</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="https://www.figma.com/file/8Bcyd0u3wEWXTygWfJ6Z36/StudentConnect?type=design&node-id=0%3A1&mode=design&t=IJ70lvIja0PTHfYm-1" target="_blank">
-                            <i class="fab fa-figma"></i> View on Figma
-                        </a>
-                    </div>
-                </div>
-            </div>
-
-            <!-- Troko -->
-            <div class="project-card">
-                <div class="project-image">
-                    <a href="https://www.figma.com/proto/6cbMQnPOWtgHCPsT9OZmKE/Troko?node-id=3-15&t=tE2uJJka3kiwPJr9-0&scaling=scale-down&content-scaling=fixed&page-id=1%3A2&starting-point-node-id=3%3A373" target="_blank">
-                        <img alt="Troko" src="images/troko.png"/>
-                    </a>
-                </div>
-                <div class="project-info">
-                    <h3 class="project-title">Troko</h3>
-                    <p class="project-description">
-                        Troko is a logistics and cargo delivery platform designed to streamline the booking, tracking, and management of deliveries for businesses and individuals across Ghana. 
-                        I led the end-to-end UI/UX design of both the requester and driver apps, as well as the admin dashboard
-                    </p>
-                    <div class="project-tech">
-                        <span>Figma</span>
-                        <span>Logistics</span>
-                        <span>Cargo Delivery</span>
-                    </div>
-                    <div class="project-links">
-                        <a href="https://www.figma.com/design/6cbMQnPOWtgHCPsT9OZmKE/Troko?node-id=0-1&p=f&t=tE2uJJka3kiwPJr9-0" target="_blank">
-                            <i class="fab fa-figma"></i> View on Figma
-                        </a>
-                    </div>
-                </div>
-            </div>
-        </div>
-        
-    <!-- Projects Section 3 end - UI/UX -->
     </section>
-            <!-- Contact section start -->
-            <section class="contact" id="contact">
-                <div class="max-width">
-                    <h2 class="title fadein">Contact Me</h2>
-                    <div class="contact-content">
-                        <div class="column left">
-                            <div class="text">Get in touch with me.</div>
-                            <p>
-                                If you have any inquiries or would like to work on a project
-                                together, please feel free to contact me using the information
-                                below:
-                            </p>
-                            <div class="icons">
-                                <div class="row">
-                                    <i class="fas fa-user"></i>
-                                    <div class="info">
-                                        <div class="head">Name</div>
-                                        <div class="sub-title">Evans Acheampong</div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <i class="fas fa-phone"></i>
-                                    <div class="info">
-                                        <div class="head">Phone</div>
-                                        <div class="sub-title">+233 57 008 1720</div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <i class="fas fa-envelope"></i>
-                                    <div class="info">
-                                        <div class="head">Email</div>
-                                        <div class="sub-title">evansachie01@gmail.com</div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <i class="fas fa-map-marker-alt"></i>
-                                    <div class="info">
-                                        <div class="head">Location</div>
-                                        <div class="sub-title">Accra, Ghana</div>
-                                    </div>
-                                </div>
-                                <div class="row">
-                                    <i class="fab fa-linkedin"></i>
-                                    <div class="info">
-                                        <div class="head">LinkedIn</div>
-                                        <div class="sub-title">
-                                            <a
-                                                    href="https://www.linkedin.com/in/evans-acheampong/"
-                                                    target="_blank"
-                                            >https://www.linkedin.com/in/evans-acheampong/</a
-                                            >
-                                        </div>
-                                    </div>
-                                </div>
-                            </div>
-                        </div>
-                        <div class="column right">
-                            <div class="text">Message Me</div>
-                            <form action="https://formspree.io/f/xvojjyqb" method="POST">
-                                <div class="fields">
-                                    <div class="field name">
-                                        <input type="text" name="name" placeholder="Name" required />
-                                    </div>
-                                    <div class="field email">
-                                        <input type="email" name="_replyto" placeholder="Email" required />
-                                    </div>
-                                </div>
-                                <div class="field">
-                                    <input type="text" name="_subject" placeholder="Subject" required />
-                                </div>
-                                <div class="field textarea">
-                                    <textarea name="message" cols="30" rows="10" placeholder="Message.." required></textarea>
-                                </div>
-                                <div class="button">
-                                    <button type="submit">Send Message</button>
-                                </div>
-                            </form>
-                        </div>
+    <main class="main">
+        <p class="name-wrap">
+            <a href="#" class="name">Evans Acheampong</a>
+        </p>
+        <p class="resume-wrap">
+            <button type="button" class="btn-text js-resume-btn">View resume</button>
+        </p>
+
+        <div class="block" id="now">
+            <p class="label">Now</p>
+            <p class="prose">
+                SWE @ <a href="https://wewire.io" target="_blank" rel="noopener">WeWire</a>.
+                New Grad in Computer Engineering from <a href="https://www.ug.edu.gh" target="_blank" rel="noopener">University of Ghana</a>.
+            </p>
+            <span class="emphasis">I like to do cool stuff with code...</span>
+        </div>
+
+        <div class="block">
+            <p class="label">Inspiration</p>
+            <p class="prose">
+                Learning from others, innovating creatively, and exploring what’s possible with code.
+                Keen on full-stack development, UI/UX, and shipping things that matter.
+            </p>
+        </div>
+
+        <hr>
+
+        <div class="block" id="work">
+            <p class="label">Work</p>
+            <div class="work-grid">
+                <div class="work-row">
+                    <span class="work-date">Oct 2025 – Present</span>
+                    <div class="work-details">
+                        <p class="work-line">Software Engineer at <a href="https://wewire.io" target="_blank" rel="noopener">WeWire</a></p>
+                        <p class="work-meta">Accra, Hybrid.</p>
                     </div>
                 </div>
-            </section>
-            <!-- Contact section end -->
-             
-            <!-- Footer section start -->
-            <footer>
-                <div class="max-width">
-                    <div class="social-icons">
-                        <a
-                                href="https://www.linkedin.com/in/evans-acheampong/"
-                                target="_blank"
-                        ><i class="fab fa-linkedin"></i
-                        ></a>
-                        <a href="https://github.com/evansachie"
-                        ><i class="fab fa-github"></i
-                        ></a>
-                    </div>
-                    <div class="credits">
-                        Created by
-                        <a
-                                href="https://www.linkedin.com/in/evans-acheampong/"
-                                target="_blank"
-                        >Evans Acheampong</a
-                        >
-                        | Designed by
-                        <a
-                                href="https://www.linkedin.com/in/evans-acheampong/"
-                                target="_blank"
-                        >Evans Acheampong</a
-                        >
+                <div class="work-row">
+                    <span class="work-date">Jun 2025 – Oct 2025</span>
+                    <div class="work-details">
+                        <p class="work-line">Full Stack Developer at <a href="https://atlaslabsventures.com" target="_blank" rel="noopener">Atlas Labs Ventures</a></p>
+                        <p class="work-meta">Contract.</p>
                     </div>
                 </div>
-            </footer>
-            <!-- Footer section end -->
-            <div id="resumeModal" class="modal">
-                <div class="modal-content">
-                    <span class="close">&times;</span>
-                    <embed src="./assets/resume.pdf" type="application/pdf" width="100%" height="600px" />
+                <div class="work-row">
+                    <span class="work-date">Jun 2024 – Jun 2025</span>
+                    <div class="work-details">
+                        <p class="work-line">Junior Software Engineer at <a href="https://digiits.com" target="_blank" rel="noopener">Digiits Agency</a></p>
+                        <p class="work-meta">Accra, Hybrid.</p>
+                    </div>
                 </div>
             </div>
-            <script src="script.js"></script>
+        </div>
+
+        <hr>
+
+        <div class="block" id="contact">
+            <p class="prose">
+                Send a dm on <a href="https://www.linkedin.com/in/evans-acheampong/" target="_blank" rel="noopener">LinkedIn</a> or send me an email at <a href="mailto:evansachie01@gmail.com">evansachie01@gmail.com</a>.
+                Let's talk.
+            </p>
+        </div>
+    </main>
+
+    <footer class="footer">
+        <div class="footer-inner">
+            <div class="footer-left">
+                <a href="https://github.com/evansachie" target="_blank" rel="noopener" class="footer-link">github.com/evansachie</a>
+                <span class="footer-meta">2025</span>
+            </div>
+            <div class="footer-right">
+                <span class="footer-location" id="footerLocation">Accra</span>
+            </div>
+        </div>
+    </footer>
+
+    <nav class="bottom-nav" aria-label="Main navigation">
+        <a href="index.html" class="bottom-nav__link bottom-nav__link--active" aria-label="Home"><i class="fas fa-home"></i></a>
+        <a href="index.html#work" class="bottom-nav__link" aria-label="Work"><i class="fas fa-briefcase"></i></a>
+        <a href="projects.html" class="bottom-nav__link" aria-label="Projects"><i class="fas fa-folder-open"></i></a>
+        <a href="index.html#contact" class="bottom-nav__link" aria-label="Contact"><i class="fas fa-envelope"></i></a>
+        <button type="button" class="bottom-nav__link js-resume-btn" aria-label="Resume"><i class="fas fa-file-alt"></i></button>
+    </nav>
+
+    <div id="resumeModal" class="modal">
+        <div class="modal-content">
+            <div class="modal-header">
+                <h3 class="modal-title">Resume</h3>
+                <div class="modal-header-actions">
+                    <a href="./assets/resume.pdf" target="_blank" rel="noopener" class="modal-open-pdf">Open in new tab</a>
+                    <button type="button" class="modal-close" aria-label="Close">×</button>
+                </div>
+            </div>
+            <div class="modal-body">
+                <embed src="./assets/resume.pdf" type="application/pdf" class="resume-pdf">
+            </div>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
 </body>
 </html>
