@@ -20,19 +20,20 @@
             <div class="banner-overlay"></div>
         </div>
     </section>
+    <div class="page-wrap">
     <main class="main">
         <p class="name-wrap">
             <a href="#" class="name">Evans Acheampong</a>
         </p>
         <p class="resume-wrap">
-            <button type="button" class="btn-text js-resume-btn">View resume</button>
+            <a href="./assets/resume.pdf" target="_blank" rel="noopener" class="btn-text">View resume</a>
         </p>
 
         <div class="block" id="now">
             <p class="label">Now</p>
             <p class="prose">
-                SWE @ <a href="https://wewire.io" target="_blank" rel="noopener">WeWire</a>.
-                New Grad in Computer Engineering from <a href="https://www.ug.edu.gh" target="_blank" rel="noopener">University of Ghana</a>.
+                SWE @ <a href="https://www.wewire.com" target="_blank" rel="noopener">WeWire</a>.
+                New Grad in Computer Engineering from <a href="https://www.ug.edu.gh" target="_blank" rel="noopener">Uni. of Ghana '25</a>.
             </p>
             <span class="emphasis">I like to do cool stuff with code...</span>
         </div>
@@ -45,6 +46,11 @@
             </p>
         </div>
 
+        <div class="block block--tech">
+            <p class="label">Tech</p>
+            <p class="tech-stack">React · TypeScript · Node · Vue · NestJS · Express · PostgreSQL · Flutter · .NET · Figma</p>
+        </div>
+
         <hr>
 
         <div class="block" id="work">
@@ -53,21 +59,21 @@
                 <div class="work-row">
                     <span class="work-date">Oct 2025 – Present</span>
                     <div class="work-details">
-                        <p class="work-line">Software Engineer at <a href="https://wewire.io" target="_blank" rel="noopener">WeWire</a></p>
+                        <p class="work-line">Software Engineer @ <a href="https://www.wewire.com" target="_blank" rel="noopener">WeWire</a></p>
                         <p class="work-meta">Accra, Hybrid.</p>
                     </div>
                 </div>
                 <div class="work-row">
-                    <span class="work-date">Jun 2025 – Oct 2025</span>
+                    <span class="work-date">Jun 2025 – Sep 2025</span>
                     <div class="work-details">
-                        <p class="work-line">Full Stack Developer at <a href="https://atlaslabsventures.com" target="_blank" rel="noopener">Atlas Labs Ventures</a></p>
+                        <p class="work-line">Full Stack Developer @ <a href="https://atlaslabsventures.com" target="_blank" rel="noopener">Atlas Labs Ventures</a></p>
                         <p class="work-meta">Contract.</p>
                     </div>
                 </div>
                 <div class="work-row">
-                    <span class="work-date">Jun 2024 – Jun 2025</span>
+                    <span class="work-date">Jun 2024 – May 2025</span>
                     <div class="work-details">
-                        <p class="work-line">Junior Software Engineer at <a href="https://digiits.com" target="_blank" rel="noopener">Digiits Agency</a></p>
+                        <p class="work-line">Junior Software Engineer @ <a href="https://digiits.com" target="_blank" rel="noopener">Digiits Agency</a></p>
                         <p class="work-meta">Accra, Hybrid.</p>
                     </div>
                 </div>
@@ -88,36 +94,22 @@
         <div class="footer-inner">
             <div class="footer-left">
                 <a href="https://github.com/evansachie" target="_blank" rel="noopener" class="footer-link">github.com/evansachie</a>
-                <span class="footer-meta">2025</span>
+                <span class="footer-sep">·</span>
+                <span class="footer-meta">© 2026</span>
             </div>
             <div class="footer-right">
-                <span class="footer-location" id="footerLocation">Accra</span>
+                <span class="footer-location">Accra; <span id="footerTime"></span></span>
             </div>
         </div>
     </footer>
+    </div>
 
     <nav class="bottom-nav" aria-label="Main navigation">
         <a href="index.html" class="bottom-nav__link bottom-nav__link--active" aria-label="Home"><i class="fas fa-home"></i></a>
-        <a href="index.html#work" class="bottom-nav__link" aria-label="Work"><i class="fas fa-briefcase"></i></a>
         <a href="projects.html" class="bottom-nav__link" aria-label="Projects"><i class="fas fa-folder-open"></i></a>
         <a href="index.html#contact" class="bottom-nav__link" aria-label="Contact"><i class="fas fa-envelope"></i></a>
-        <button type="button" class="bottom-nav__link js-resume-btn" aria-label="Resume"><i class="fas fa-file-alt"></i></button>
+        <a href="./assets/resume.pdf" target="_blank" rel="noopener" class="bottom-nav__link" aria-label="Resume"><i class="fas fa-file-alt"></i></a>
     </nav>
-
-    <div id="resumeModal" class="modal">
-        <div class="modal-content">
-            <div class="modal-header">
-                <h3 class="modal-title">Resume</h3>
-                <div class="modal-header-actions">
-                    <a href="./assets/resume.pdf" target="_blank" rel="noopener" class="modal-open-pdf">Open in new tab</a>
-                    <button type="button" class="modal-close" aria-label="Close">×</button>
-                </div>
-            </div>
-            <div class="modal-body">
-                <embed src="./assets/resume.pdf" type="application/pdf" class="resume-pdf">
-            </div>
-        </div>
-    </div>
 
     <script src="script.js"></script>
 </body>
